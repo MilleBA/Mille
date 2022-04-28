@@ -59,7 +59,7 @@ p{
 }
 
 .hovedside-bilde{
-  background-image: url('images/woman_can_code.png');
+  background-image: url(woman_can_code.png);
   background-size: cover;
   border-radius: 100%;
 
