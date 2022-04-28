@@ -1,0 +1,228 @@
+/* @media screen, @media print
+@media (max-width:){
+  .bilder{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (min-width: 1028px){
+
+}
+*/
+h1, h2 {
+  padding-left: 25px;
+  display: block;
+  width: 600px;
+  color: white;
+}
+
+h3 {
+  font-family: "Montserrat"
+    weight 700;
+  padding: 1em;
+}
+
+h5 {
+  color: #251D3A;
+  line-height: 2;
+}
+
+li {
+  color: black;
+  display: inline-block;
+  margin-left: 30px;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* må spesifisere koden med id="" + class="" i html
+for css blir spesifisert #id.class {} */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.kontakter{
+  color: black;
+  margin: 20px 100px;
+}
+p{
+  text-align: left;
+}
+
+/* Hovedside */
+.hovedside {
+  background-image: url(../images/background9.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+.hovedside-bilde{
+  background-image: url(../images/woman_can_code.png);
+  background-size: cover;
+  border-radius: 100%;
+
+}
+
+.hovedside-tekst {
+margin: 50px 100px 30px 100px;
+}
+
+.nav {
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bottom-container {
+  display: inline-block;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.copyright {
+  padding: 5px 5px;
+  margin: 0;
+  text-align: left;
+}
+
+.linje {
+text-align: left;
+}
+
+.kode {
+  line-height: 2;
+  color: black;
+  font-size: 20px;
+}
+.bilder{
+  border-radius: 100%;
+}
+/* Linker */
+
+.linker{
+  background-image: url(../images/background2.jpg);
+  padding-top: 20px;
+}
+.link {
+  margin: 60px 50px;
+  padding: 5px 5px;
+}
+
+.link-tekst {
+  color: black;
+}
+
+/* Om meg */
+.meg {
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  text-align: left;
+  margin: 50px 50px;
+}
+
+#bilder {
+  margin: 0 0;
+  text-align: center;
+}
+
+.tekst_om_meg {
+  line-height: 1.5;
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 20px 20px;
+}
+
+.meg-image {
+  width: 50%;
+  border-radius: 100%;
+  margin: 20px;
+  /* Mine prosjekter */
+}
+
+#mine-prosjekter{
+  background-image: url(../images/background8.jpg);
+  background-size: cover;
+}
+
+.prosjekter-tekst {
+  color: black;
+padding: 50px 0 10px 50px;
+}
+
+.prosjekter {
+  margin: 20px 100px;
+  padding-top: 20px;
+}
+
+/* Kurs */
+.kurs {
+  background-image: url(../images/background3.jpg);
+  background-size: cover;
+
+}
+.kurs-tekst{
+  color: black;
+  padding: 30px 30px;
+margin: 30px 30px;
+}
+.kurs-boks{
+  margin: 10px 60px;
+}
+
+#features {
+  margin: 7% 7%;
+  padding: 1em;
+  text-align: center;
+}
+
+.icon {
+  color: black;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.abcd {
+  padding: 50px 50px;
+}
+
+/* Kontakter */
+
+.kontakter-boks{
+  margin:150px 200px 50px 200px;
+}
+.kontakter-side{
+  background-image: url(../images/background5.jpg);
+  background-size: cover;
+}
+
+/* Navbar */
+.button{
+  margin-left:10px;
+}
+.navbar{
+  margin: 50px 100px 50px;
+}
+
+.btn-group{
+  margin-top: 40px;
+  margin-right: 40px;
+}
+/* CV */
+
+.cv{
+  background-color: #FFEEEE;
+}
+
+.cv-heading{
+  margin: 40px 100px 20px;
+}
+.cv-andreopplysninger{
+  margin-bottom: 50px;
+}
