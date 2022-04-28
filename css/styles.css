@@ -59,7 +59,7 @@ p{
 }
 
 .hovedside-bilde{
-  background-image: url(images/woman_can_code.png);
+  background-image: url("images/woman_can_code.png");
   background-size: cover;
   border-radius: 100%;
 
@@ -103,7 +103,7 @@ text-align: left;
 /* Linker */
 
 .linker{
-  background-image: url(images/background2.jpg);
+  background-image: url("images/background2.jpg");
   padding-top: 20px;
 }
 .link {
@@ -117,7 +117,7 @@ text-align: left;
 
 /* Om meg */
 .meg {
-  background-image: url(images/background4.jpg);
+  background-image: url("images/background4.jpg");
   background-size: cover;
   text-align: left;
   margin: 50px 50px;
@@ -145,7 +145,7 @@ text-align: left;
 }
 
 #mine-prosjekter{
-  background-image: url(images/background8.jpg);
+  background-image: url("images/background8.jpg");
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@ padding: 50px 0 10px 50px;
 
 /* Kurs */
 .kurs {
-  background-image: url(images/background3.jpg);
+  background-image: url("images/background3.jpg");
   background-size: cover;
 
 }
@@ -198,7 +198,7 @@ margin: 30px 30px;
   margin:150px 200px 50px 200px;
 }
 .kontakter-side{
-  background-image: url(images/background5.jpg);
+  background-image: url("images/background5.jpg");
   background-size: cover;
 }
 
