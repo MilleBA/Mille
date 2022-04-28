@@ -53,7 +53,7 @@ p{
 
 /* Hovedside */
 .hovedside {
-  background-image: url("../../background9.jpg");
+  background-image: url('../images/background9.jpg');
   background-size: cover;
   margin: 0;
 }
