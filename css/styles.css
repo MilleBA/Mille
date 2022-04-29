@@ -204,6 +204,12 @@ margin: 30px 30px;
   color: purple;
 }
 
+.icon3 {
+  color: black;
+}
+.icon3:hover {
+  color: white;
+}
 .abcd {
   padding: 50px 50px;
 }
