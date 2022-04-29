@@ -197,11 +197,11 @@ margin: 30px 30px;
 }
 
 .icon2 {
-  color: white;
+  color: red;
 }
 
 .icon2:hover {
-  color: green;
+  color: purple;
 }
 
 .abcd {
