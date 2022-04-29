@@ -196,6 +196,14 @@ margin: 30px 30px;
   color: white;
 }
 
+.icon2 {
+  color: white;
+}
+
+.icon2:hover {
+  color: green;
+}
+
 .abcd {
   padding: 50px 50px;
 }
