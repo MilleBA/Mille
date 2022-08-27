@@ -70,44 +70,6 @@ p {
   text-align: left;
 }
 
-/* Hovedside */
-.hovedside {
-  background-image: url('../images/background9.jpg');
-  background-size: cover;
-  height: 800px;
-}
-
-.hovedside-bilde {
-  background-image: url('../images/woman_can_code.png');
-  background-size: cover;
-  border-radius: 100%;
-}
-
-.hovedside-tekst {
-  margin: 50px 100px 30px 100px;
-}
-
-.nav {
-  padding: 5px 40px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.bottom-container {
-  display: inline-block;
-  height: 10%;
-  width: 100%;
-  text-align: center;
-}
-
-.kode {
-  line-height: 2;
-  color: black;
-  font-size: 20px;
-}
-.bilder {
-  border-radius: 100%;
-}
 /* Linker */
 
 .linker {
@@ -268,15 +230,6 @@ p {
   text-decoration: none;
 }
 
-/*********IMAGE-MAP****************/
-#map1 {
-  text-align: center; /*funket ikke*/
-}
-
-/******* hovedside 2 *****************/
-#hovedside2 {
-  background-color: #a2a2a2;
-}
 /*****************************************************************/
  {
   box-sizing: border-box;
