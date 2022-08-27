@@ -1,26 +1,45 @@
-/* @media screen, @media print
-@media (max-width:){
-  .bilder{
-    position: static;
-    transform: rotate(0);
+ {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create three equal columns */
+.column {
+  flex: 33%;
+  padding: 20px;
+}
+@media screen and (min-width: 600px) {
+  div {
+    font-size: 20px;
+  }
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+  div {
+    font-size: 10px;
   }
 }
 
-@media (min-width: 1028px){
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    font-size: 30px;
+  }
+}
 
-}
-*/
-h1,
-h2 {
-  padding-left: 25px;
-  display: block;
-  width: 600px;
-  color: white;
-}
+/******************************************************************************/
 
 h3 {
   font-family: 'Montserrat' weight 700;
-  padding: 1em;
 }
 
 h5 {
@@ -180,7 +199,7 @@ p {
 }
 
 .icon:hover {
-  color: white;
+  color: orange;
 }
 
 .icon2 {
@@ -191,12 +210,6 @@ p {
   color: purple;
 }
 
-.icon3 {
-  color: black;
-}
-.icon3:hover {
-  color: white;
-}
 .abcd {
   padding: 50px 50px;
 }
@@ -263,4 +276,36 @@ p {
 /******* hovedside 2 *****************/
 #hovedside2 {
   background-color: #a2a2a2;
+}
+/*****************************************************************/
+ {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from three columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
