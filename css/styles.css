@@ -10,7 +10,8 @@
 
 }
 */
-h1, h2 {
+h1,
+h2 {
   padding-left: 25px;
   display: block;
   width: 600px;
@@ -18,13 +19,12 @@ h1, h2 {
 }
 
 h3 {
-  font-family: "Montserrat"
-    weight 700;
+  font-family: 'Montserrat' weight 700;
   padding: 1em;
 }
 
 h5 {
-  color: #251D3A;
+  color: #251d3a;
   line-height: 2;
 }
 
@@ -43,11 +43,11 @@ a {
   color: black;
 }
 
-.kontakter{
+.kontakter {
   color: black;
   margin: 20px 100px;
 }
-p{
+p {
   text-align: left;
 }
 
@@ -55,18 +55,17 @@ p{
 .hovedside {
   background-image: url('../images/background9.jpg');
   background-size: cover;
-  margin: 0;
+  height: 800px;
 }
 
-.hovedside-bilde{
+.hovedside-bilde {
   background-image: url('../images/woman_can_code.png');
   background-size: cover;
   border-radius: 100%;
-
 }
 
 .hovedside-tekst {
-margin: 50px 100px 30px 100px;
+  margin: 50px 100px 30px 100px;
 }
 
 .nav {
@@ -82,27 +81,17 @@ margin: 50px 100px 30px 100px;
   text-align: center;
 }
 
-.copyright {
-  padding: 5px 5px;
-  margin: 0;
-  text-align: left;
-}
-
-.linje {
-text-align: left;
-}
-
 .kode {
   line-height: 2;
   color: black;
   font-size: 20px;
 }
-.bilder{
+.bilder {
   border-radius: 100%;
 }
 /* Linker */
 
-.linker{
+.linker {
   background-image: url('../images/background2.jpg');
   padding-top: 20px;
 }
@@ -119,8 +108,7 @@ text-align: left;
 .meg {
   background-image: url('../images/background4.jpg');
   background-size: cover;
-  text-align: left;
-  margin: 50px 50px;
+  margin: 30px 30px;
 }
 
 #bilder {
@@ -137,7 +125,7 @@ text-align: left;
   margin: 20px 20px;
 }
 
-.tekst_om_meg1{
+.tekst_om_meg1 {
   line-height: 1.5;
   text-align: left;
   color: black;
@@ -152,14 +140,14 @@ text-align: left;
   /* Mine prosjekter */
 }
 
-#mine-prosjekter{
+#mine-prosjekter {
   background-image: url('../images/background8.jpg');
   background-size: cover;
 }
 
 .prosjekter-tekst {
   color: black;
-padding: 50px 0 10px 50px;
+  padding: 50px 0 10px 50px;
 }
 
 .prosjekter {
@@ -171,14 +159,13 @@ padding: 50px 0 10px 50px;
 .kurs {
   background-image: url('../images/background3.jpg');
   background-size: cover;
-
 }
-.kurs-tekst{
+.kurs-tekst {
   color: black;
   padding: 30px 30px;
-margin: 30px 30px;
+  margin: 30px 30px;
 }
-.kurs-boks{
+.kurs-boks {
   margin: 10px 60px;
 }
 
@@ -216,35 +203,64 @@ margin: 30px 30px;
 
 /* Kontakter */
 
-.kontakter-boks{
-  margin:150px 200px 50px 200px;
+.kontakter-boks {
+  margin: 150px 200px 50px 200px;
 }
-.kontakter-side{
+.kontakter-side {
   background-image: url('../images/background5.jpg');
   background-size: cover;
 }
 
 /* Navbar */
-.button{
-  margin-left:10px;
+.button {
+  margin-left: 10px;
 }
-.navbar{
+.navbar {
   margin: 50px 100px 50px;
 }
 
-.btn-group{
+.btn-group {
   margin-top: 40px;
   margin-right: 40px;
 }
 /* CV */
 
-.cv{
-  background-color: #FFEEEE;
+.cv {
+  background-color: #ffeeee;
 }
 
-.cv-heading{
+.cv-heading {
   margin: 40px 100px 20px;
 }
-.cv-andreopplysninger{
+.cv-andreopplysninger {
   margin-bottom: 50px;
+}
+/* BOOKS */
+#books {
+  background-color: #cfdac8;
+}
+#booksHeading {
+  margin: 5% 27%;
+  text-align: center;
+}
+.accordion {
+  margin: 100px;
+}
+
+.accordion-body {
+  background-color: #cdd0cb;
+}
+
+#booksLinks {
+  text-decoration: none;
+}
+
+/*********IMAGE-MAP****************/
+#map1 {
+  text-align: center; /*funket ikke*/
+}
+
+/******* hovedside 2 *****************/
+#hovedside2 {
+  background-color: #a2a2a2;
 }
