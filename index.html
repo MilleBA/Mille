@@ -7,75 +7,64 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Mille Brekke Amundsen</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <link rel="icon" href="icon/favicon.ico">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script src="https://kit.fontawesome.com/0b1063920d.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
 <body class="hovedside">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-  <!-- id="meg", kan linkes - <a href="#meg"></a> -->
-  <div class="btn-group dropend position-absolute top-0 end-0">
-    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-     <i class="fa-solid fa-bars"></i>
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="om_meg.html">Om meg</a></li>
-      <li><a class="dropdown-item" href="mine_prosjekter.html">Mine prosjekter</a></li>
-      <li><a class="dropdown-item" href="kurs.html">Kurs</a></li>
-      <li><a class="dropdown-item" href="kontakter.html">Kontakt meg</a></li>
-      <li><a class="dropdown-item" href="linker.html">Linker</a></li>
-    </ul>
-  </div>
-
-  <div class="hovedside-tekst">
+ 
+  <header class="w3-container w3-padding-16">
+    <div>
       <h1> Mille Brekke Amundsen: </h1><br>
-      <h2> IT og informasjonssystemer student <i class="fa-solid fa-heart"></i></h2>
-    </div>
+      <h2> IT og informasjonssystemer student <i class="fa-solid fa-heart"></i></h2></div>
+  <nav class="w3-panel w3-display-container w3-display-topright w3-margin w3-right w3-padding w3-round w3-black">
+   <a class=" w3-mobile w3-right w3-button" href="kontakter.html">Kontakt meg</a>
+      <a class=" w3-mobile w3-right w3-button" href="linker.html">Linker</a>
+      <a class=" w3-mobile w3-right w3-button" href="kurs.html">Kurs</a>
+      <a  class=" w3-mobile w3-right w3-button" href="mine_prosjekter.html">Mine prosjekter</a>
+      <a class=" w3-mobile w3-right w3-button" href="om_meg.html">Om meg</a>
+  </nav>
+    </header>
 
-        <section>
-          <div id="features">
-            <div class="row">
-              <div class="abcd col-lg-4">
+        <div class="w3-row w3-padding-32">
+              <div class="w3-third  w3-container w3-padding-32 w3-center">
                 <i class="icon fa-solid fa-computer fa-2xl"></i>
-                <h3>Jenter kan kode!</h3>
-                <h5>Det er en vanlig stereotyp at bare mannfolk kan kode <i class="fa-regular fa-face-grin-beam-sweat"></i>, men det er ikke sant! Vi damer kan kode like bra og fort som mennene. Denne nettsiden er bare et lite bevis på det <i class="fa-regular fa-face-grin-tongue-squint"></i>.</h5>
-              </div>
-
-           
-                 <div class="abcd hovedside-bilde col-lg-4">
-
+            
+                <h3 class="w3-text-black">Jenter kan kode!</h3>
+                <h5 class="w3-text-black">Det er en vanlig stereotyp at bare mannfolk kan kode <i class="fa-regular fa-face-grin-beam-sweat"></i>, men det er ikke sant! Vi damer kan kode like bra og fort som mennene. Denne nettsiden er bare et lite bevis på det <i class="fa-regular fa-face-grin-tongue-squint"></i>.</h5>
               </div>
               
+          
+              <div><img src="images/woman_can_code.png" class="w3-third  w3-container w3-tiny w3-circle w3-padding-32 w3-center" alt="Damer koder">
+            </div>
 
-              <div class="abcd col-lg-4">
+              <div class="w3-third  w3-container w3-padding-32 w3-center ">
               <i class="icon fa-regular fa-newspaper fa-2xl"></i>
                 <h3>Lurt å lese:</h3>
-                <p class="linje"><a  href="#">💻 Her kan du finne nyttige artikler om kurs.</a></p>
-                <p class="linje"><a  href="#">💻 Her kan du finne nyttige artikler om programmering.</a></p>
-                <p class="linje"><a  href="#">💻 Her kan du finne nyttige artikler om webutvikling.</a></p>
-                <p class="linje"><a  href="#">💻 Her kan du finne nyttige artikler om systemutvikling.</a></p>
-                <p class="linje"><a  href="#">💻 Her kan du finne nyttige artikler om informasjonssystemer.</a></p>
+                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om kurs.</a></p>
+                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om programmering.</a></p>
+                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om webutvikling.</a></p>
+                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om systemutvikling.</a></p>
+                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om informasjonssystemer.</a></p>
               </div>
+        </div>
+        
 
-            </div>
-          </div>
-        </section>
-
-    <div class="bottom-container">
-      <ul>
-        <li class="copyright"> &copy 2022 Mille Brekke Amundsen</li>
-        <li><a class="footer-link" href="https://www.facebook.com/Deimiliuks"><i class="icon3 fa-brands fa-facebook"></i></a></li>
-        <li></i> <a class="footer-link" href="cv.html"><i class="icon3 fa-solid fa-id-card"></i></a></li>
-      </ul>
-    </div>
+    <footer class="w3-panel w3-margin w3-padding w3-center">
+        <p class="w3-center w3-padding-32"> &copy 2022 Mille Brekke Amundsen   
+        <a class="w3-center w3-padding-32 w3-button" href="https://www.facebook.com/Deimiliuks"><i class="icon3 fa-brands fa-facebook"></i></a>
+    <a class="w3-center w3-padding-32 w3-button" href="cv.html"><i class="icon3 fa-solid fa-id-card"></i></a></p>
+    </footer>
 
   </div>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>
