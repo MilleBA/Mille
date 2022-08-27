@@ -1,79 +1,159 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mille Brekke Amundsen</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icon/favicon.ico" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0b1063920d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mille Brekke Amundsen</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-  <link rel="icon" href="icon/favicon.ico">
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <script src="https://kit.fontawesome.com/0b1063920d.js" crossorigin="anonymous"></script>
-</head>
+  <body class="w3-light-grey">
+    <header class="w3-row-padding w3-mobile">
+      <div class="w3-container w3-threequarter">
+        <h1><b> Mille Brekke Amundsen: </b></h1>
+        <br />
+        <h3 class="w3-center">
+          IT og informasjonssystemer student <i class="fa-solid fa-heart"></i>
+        </h3>
+      </div>
+      <div class="w3-container w3-quarter w3-mobile w3-padding">
+        <img src="images/background9.jpg" alt="Tastatur" style="width: 100%" />
+      </div>
+    </header>
+    <nav class="w3-bar w3-black w3-round">
+      <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a>Link 1</a>
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="mine_prosjekter.html"
+        >Mine prosjekter</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="kurs.html"
+        >Kurs</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="linker.html"
+        >Linker</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="books.html"
+        >Bøker</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="kontakter.html"
+        >Kontakt meg</a
+      >
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </nav>
+    <nav
+      id="demo"
+      class="w3-bar-block w3-orange w3-hover-red w3-border w3-hide w3-hide-large w3-hide-medium"
+    >
+      <a href="mine_prosjekter.html" class="w3-bar-item w3-button"
+        >Mine prosjekter</a
+      >
+      <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
+      <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
+      <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
+      <a href="kontakter.html" class="w3-bar-item w3-button">Kontakt meg</a>
+    </nav>
 
-<body class="w3-light-grey">
- 
-  <header class="index w3-row-padding w3-mobile">
-    <div class="w3-container w3-threequarter">
-  <h1><b> Mille Brekke Amundsen: </b></h1><br>
-  <h3 class="w3-center"> IT og informasjonssystemer student <i class="fa-solid fa-heart"></i></h3>
-</div>
-<div class="w3-container w3-quarter w3-mobile w3-padding">
-  <img src="images/background9.jpg" alt="Tastatur" style="width: 100%">
-</div>
-</header>
-  <div class="w3-bar w3-black w3-round">
-    <a class="w3-bar-item w3-button" href="index.html"><i class="fa fa-home"></i></a>
-    <a >Link 1</a>
-    <a  class="w3-bar-item w3-button w3-hide-small" href="mine_prosjekter.html">Mine prosjekter</a>
-    <a class="w3-bar-item w3-button w3-hide-small" href="kurs.html">Kurs</a>
-    <a class="w3-bar-item w3-button w3-hide-small" href="linker.html">Linker</a>
-    <a class="w3-bar-item w3-button w3-hide-small" href="books.html">Bøker</a>
-   <a class="w3-bar-item w3-button w3-hide-small" href="kontakter.html">Kontakt meg</a>
-   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-  </div>
-  <div id="demo" class="w3-bar-block w3-orange w3-hover-red w3-border w3-hide w3-hide-large w3-hide-medium">
-    <a href="mine_prosjekter.html" class="w3-bar-item w3-button">Mine prosjekter</a>
-    <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
-    <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
-    <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
-    <a href="kontakter.html" class="w3-bar-item w3-button">Kontakt meg</a>
-  </div>
+    <section class="w3-row w3-padding-32 w3-center">
+      <article class="w3-third w3-container w3-padding-32 w3-center">
+        <i class="icon fa-solid fa-computer fa-2xl"></i>
 
-        <div class="w3-row w3-padding-32 w3-center">
-              <div class="w3-third  w3-container w3-padding-32 w3-center">
-                <i class="icon fa-solid fa-computer fa-2xl"></i>
-            
-                <h3 class="w3-text-black">Jenter kan kode!</h3>
-                <h5 class="w3-text-black">Det er en vanlig stereotyp at bare mannfolk kan kode <i class="fa-regular fa-face-grin-beam-sweat"></i>, men det er ikke sant! Vi damer kan kode like bra og fort som mennene. Denne nettsiden er bare et lite bevis på det <i class="fa-regular fa-face-grin-tongue-squint"></i>.</h5>
-              </div>
-              
-          
-              <div><img src="images/woman_can_code.png" class="w3-third  w3-container w3-tiny w3-circle w3-padding-32 w3-center" alt="Damer koder">
-            </div>
+        <h3 class="w3-text-black">Jenter kan kode!</h3>
+        <h5 class="w3-text-black">
+          Det er en vanlig stereotyp at bare mannfolk kan kode
+          <i class="fa-regular fa-face-grin-beam-sweat"></i>, men det er ikke
+          sant! Vi damer kan kode like bra og fort som mennene. Denne nettsiden
+          er bare et lite bevis på det
+          <i class="fa-regular fa-face-grin-tongue-squint"></i>.
+        </h5>
+      </article>
 
-              <div class="w3-third  w3-container w3-padding-32 w3-center ">
-              <i class="icon fa-regular fa-newspaper fa-2xl"></i>
-                <h3>Lurt å lese:</h3>
-                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om kurs.</a></p>
-                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om programmering.</a></p>
-                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om webutvikling.</a></p>
-                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om systemutvikling.</a></p>
-                <p class="w3-text-black"><a  href="#" class="w3-button w3-mobile"><i class='fas fa-laptop'></i> Her kan du finne nyttige artikler om informasjonssystemer.</a></p>
-              </div>
-        </div>
-        
+      <div>
+        <img
+          src="images/woman_can_code.png"
+          class="w3-third w3-container w3-tiny w3-circle w3-padding-32 w3-center"
+          alt="Damer koder"
+        />
+      </div>
 
-  
-     <footer class="w3-row w3-center w3-black w3-round w3-mobile">
-        <p class="w3-center w3-small"> &copy 2022 Mille Brekke Amundsen  
-          <a class="w3-button" href="https://www.facebook.com/Deimiliuks"><i class="icon3 fa-brands fa-facebook"></i></a> <a class="w3-button" href="cv.html"><i class="fa-solid fa-id-card"></i></a></p> 
+      <article class="w3-third w3-container w3-padding-32 w3-center">
+        <i class="icon fa-regular fa-newspaper fa-2xl"></i>
+        <h3>Lurt å lese:</h3>
+        <p class="w3-text-black">
+          <a href="#" class="w3-button w3-mobile"
+            ><i class="fas fa-laptop"></i> Her kan du finne nyttige artikler om
+            kurs.</a
+          >
+        </p>
+        <p class="w3-text-black">
+          <a href="#" class="w3-button w3-mobile"
+            ><i class="fas fa-laptop"></i> Her kan du finne nyttige artikler om
+            programmering.</a
+          >
+        </p>
+        <p class="w3-text-black">
+          <a href="#" class="w3-button w3-mobile"
+            ><i class="fas fa-laptop"></i> Her kan du finne nyttige artikler om
+            webutvikling.</a
+          >
+        </p>
+        <p class="w3-text-black">
+          <a href="#" class="w3-button w3-mobile"
+            ><i class="fas fa-laptop"></i> Her kan du finne nyttige artikler om
+            systemutvikling.</a
+          >
+        </p>
+        <p class="w3-text-black">
+          <a href="#" class="w3-button w3-mobile"
+            ><i class="fas fa-laptop"></i> Her kan du finne nyttige artikler om
+            informasjonssystemer.</a
+          >
+        </p>
+      </article>
+    </section>
+
+    <footer class="w3-row w3-center w3-black w3-round w3-mobile">
+      <p class="w3-center w3-small">
+        &copy 2022 Mille Brekke Amundsen
+        <a class="w3-button" href="https://www.facebook.com/Deimiliuks"
+          ><i class="icon3 fa-brands fa-facebook"></i
+        ></a>
+        <a class="w3-button" href="cv.html"
+          ><i class="fa-solid fa-id-card"></i
+        ></a>
+      </p>
     </footer>
-  <script src="index.js" charset="utf-8"></script>
-
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
