@@ -74,7 +74,6 @@ p {
 
 .linker {
   background-image: url('../images/background2.jpg');
-  padding-top: 20px;
 }
 .link {
   margin: 60px 50px;
@@ -90,7 +89,6 @@ p {
 .meg {
   background-image: url('../images/background4.jpg');
   background-size: cover;
-  margin: 30px 30px;
 }
 
 /* Mine prosjekter */
