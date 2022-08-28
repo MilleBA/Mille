@@ -1,88 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Kontakt meg</title>
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+        rel="stylesheet"
+      />
+      <link rel="icon" href="icon/favicon.ico" />
+      <script src="https://www.w3schools.com/lib/w3.js"></script>
+      <script
+        src="https://kit.fontawesome.com/0b1063920d.js"
+        crossorigin="anonymous"
+      ></script>
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Kontakt meg</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-  <link rel="icon" href="icon/favicon.ico">
-  <script src="https://kit.fontawesome.com/0b1063920d.js" crossorigin="anonymous"></script>
-</head>
+    <body class="kontakter-side">
+      <nav class="w3-bar w3-black w3-padding w3-round">
+        <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
+          ><i class="fa fa-home"></i
+        ></a>
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="om_meg.html"
+          >Om meg</a
+        >
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="mine_prosjekter.html"
+          >Mine prosjekter</a
+        >
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="kurs.html"
+          >Kurs</a
+        >
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="linker.html"
+          >Linker</a
+        >
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="books.html"
+          >Bøker</a
+        >
+        <a
+          class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+          href="kontakter.html"
+          ><i class="far fa-envelope-open"></i
+        ></a>
+        <a
+          href="javascript:void(0)"
+          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+      <nav
+        id="demo"
+        class="w3-bar-block w3-orange w3-hover-red w3-border w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a href="om_meg.html" class="w3-bar-item w3-button">Om meg</a>
+        <a href="mine_prosjekter.html" class="w3-bar-item w3-button"
+          >Mine prosjekter</a
+        >
+        <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
+        <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
+        <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
+        <a href="kontakter.html" class="w3-bar-item w3-button"
+          ><i class="far fa-envelope-open"></i
+        ></a>
+      </nav>
 
-<body class="kontakter-side">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <form
+        action="/action_page.php"
+        class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin"
+      >
+        <h2 class="w3-center">Kontakt meg</h2>
 
-  <nav class="navbar navbar-light navbar-expand-lg">
-    <div class="container-fluid min-vw-100 position-absolute top-50 start-50 translate-middle h-50 d-inline-block">
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html" class="current"><i class="icon2 fa-solid fa-house fa-2xl"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="om_meg.html"><i class="icon2 fa-solid fa-person-dress fa-2xl"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="mine_prosjekter.html"><i class="icon2 fa-solid fa-folder-open fa-2xl"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="kurs.html"><i class="icon2 fa-solid fa-graduation-cap fa-2xl"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="linker.html"><i class="icon2 fa-solid fa-book fa-2xl"></i></a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="kontakter-boks" class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8 col-lg-12 pb-5">
-
-        <!--Form with header-->
-
-        <form action="mailto:deimile7@gmail.com" method="post" enctype="text/plain">
-          <div class="card rounded-0">
-            <div class="card-header text-white bg-secondary p-0">
-              <div class="bg-secondary text-white text-center py-2">
-                <h3><i class="fa fa-envelope"></i> Kontakt meg</h3>
-              </div>
-            </div>
-            <div class="card-body p-3">
-
-              <!--Body-->
-              <div class="form-group">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text"><i class="fa fa-user text-body"></i></div>
-                  </div>
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Navn" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text"><i class="fa fa-envelope text-body"></i></div>
-                  </div>
-                  <input type="email" class="form-control" id="name" name="email" placeholder="e.post" required>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text"><i class="fa fa-comment text-body"></i></div>
-                  </div>
-                  <textarea class="form-control" placeholder="Skriv din melding her:" required></textarea>
-                </div>
-              </div>
-
-              <div class="text-center">
-                <input type="submit" value="Send" class="btn btn-outline-secondary btn-block rounded-0 py-2">
-              </div>
-            </div>
-
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-user"></i>
           </div>
-        </form>
-        <!--Form with header-->
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="first"
+              type="text"
+              placeholder="Fornavn"
+            />
+          </div>
+        </div>
 
-      </div>
-    </div>
-  </div>
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-user"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="last"
+              type="text"
+              placeholder="Etternavn"
+            />
+          </div>
+        </div>
 
-</body>
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-envelope-o"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="email"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+        </div>
 
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-phone"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="phone"
+              type="text"
+              placeholder="Tel.nr."
+            />
+          </div>
+        </div>
+
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width: 50px">
+            <i class="w3-xxlarge fa fa-pencil"></i>
+          </div>
+          <div class="w3-rest">
+            <input
+              class="w3-input w3-border"
+              name="message"
+              type="text"
+              placeholder="Melding"
+            />
+          </div>
+        </div>
+
+        <button
+          class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding"
+        >
+          Send
+        </button>
+      </form>
+
+      <script src="index.js"></script>
+    </body>
+  </html>
 </html>
