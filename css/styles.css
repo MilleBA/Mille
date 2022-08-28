@@ -86,40 +86,14 @@ p {
 }
 
 /* Om meg */
+
 .meg {
   background-image: url('../images/background4.jpg');
   background-size: cover;
   margin: 30px 30px;
 }
 
-#bilder {
-  margin: 0 0;
-  text-align: center;
-}
-
-.tekst_om_meg {
-  line-height: 1.5;
-  text-align: center;
-  color: black;
-  font-size: 25px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  margin: 20px 20px;
-}
-
-.tekst_om_meg1 {
-  line-height: 1.5;
-  text-align: left;
-  color: black;
-  font-size: 50px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  margin: 20px 20px;
-}
-.meg-image {
-  width: 50%;
-  border-radius: 100%;
-  margin: 20px;
-  /* Mine prosjekter */
-}
+/* Mine prosjekter */
 
 #mine-prosjekter {
   background-image: url('../images/background8.jpg');
