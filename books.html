@@ -10,10 +10,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
-      rel="stylesheet"
-    />
     <link rel="icon" href="icon/favicon.ico" />
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script
@@ -21,155 +17,143 @@
       crossorigin="anonymous"
     ></script>
   </head>
-      <body id="books">
-        <nav class="w3-bar w3-padding w3-black w3-round">
-          <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
-            ><i class="fa fa-home"></i
-          ></a>
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="om_meg.html"
-            >Om meg</a
-          >
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="mine_prosjekter.html"
-            >Mine prosjekter</a
-          >
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="kurs.html"
-            >Kurs</a
-          >
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="linker.html"
-            >Linker</a
-          >
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="books.html"
-            >Bøker</a
-          >
-          <a
-            class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
-            href="kontakter.html"
-            ><i class="far fa-envelope-open"></i
-              ></a
-          >
-          <a
-            href="javascript:void(0)"
-            class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-            onclick="myFunction()"
-            >&#9776;</a
-          >
-        </nav>
-        <nav
-          id="demo"
-          class="w3-bar-block w3-orange w3-hover-red w3-border w3-hide w3-hide-large w3-hide-medium"
-        >
-          <a href="om_meg.html" class="w3-bar-item w3-button">Om meg</a>
-          <a href="mine_prosjekter.html" class="w3-bar-item w3-button"
-            >Mine prosjekter</a
-          >
-          <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
-          <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
-          <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
-          <a href="kontakter.html" class="w3-bar-item w3-button"><i class="far fa-envelope-open"></i
-            ></a>
-        </nav>
+  <body id="books">
+    <nav class="w3-bar w3-padding w3-black w3-round">
+      <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="om_meg.html"
+        >Om meg</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="mine_prosjekter.html"
+        >Mine prosjekter</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="kurs.html"
+        >Kurs</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="linker.html"
+        >Linker</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="books.html"
+        >Bøker</a
+      >
+      <a
+        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        href="kontakter.html"
+        ><i class="far fa-envelope-open"></i
+      ></a>
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </nav>
+    <nav
+      id="demo"
+      class="w3-bar-block w3-orange w3-hover-red w3-border w3-hide w3-hide-large w3-hide-medium"
+    >
+      <a href="om_meg.html" class="w3-bar-item w3-button">Om meg</a>
+      <a href="mine_prosjekter.html" class="w3-bar-item w3-button"
+        >Mine prosjekter</a
+      >
+      <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
+      <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
+      <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
+      <a href="kontakter.html" class="w3-bar-item w3-button"
+        ><i class="far fa-envelope-open"></i
+      ></a>
+    </nav>
 
-        <h2 id="booksHeading">
-          <b>Her kan dere se hva har jeg lest i det siste</b> <br />
-          <br />
-          <i class="icon w3-margin fa-solid fa-book-open-reader"> </i>
-        </h2>
-        <div class="w3-container w3-margin">
-      
-              <table class="w3-table-all w3-hoverable">
-                <thead>
-                  <tr class="w3-grey">
-                    <th>Dato</th>
-                    <th>Navn</th>
-                  </tr>
-                </thead>
-                <tr>
-                  <td>April</td>
-                  <td>
-                    <a
-      
-                      href="https://www.akademika.no/9781118008188/teknologi/data-og-informasjonsteknologi/html-and-css"
-                      >HTML & CSS : design and build web sites = HTML and CSS</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Mai</td>
-                  <td>
-                    <a
-            
-                      href="https://www.akademika.no/9781118531648/teknologi/data-og-informasjonsteknologi/javascript-and-jquery-interactive-front-end-web-development"
-                    >
-                      JavaScript & jQuery : interactive front-end web
-                      development</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Mai/Juni</td>
-                  <td>
-                    <a
-                      href="https://www.akademika.no/9780672336232/teknologi/data-og-informasjonsteknologi/html-css-javascript-web-publishing-one-hour-day-sams-teach-yourself"
-                      >Sams teach yourself HTML, CSS & JavaScript web publishing
-                      in one hour a day</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Juni</td>
-                  <td>
-                    <a
-  
-                      href="https://www.ark.no/boker/Barbro-Tronhuus-Storlien-Barbro-broderer-9788269074468"
-                      >Barbro broderer - tanker, tips og teknikker</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Juni/Juli</td>
-                  <td>
-                    <a
-                      
-                      href="https://www.fagbokforlaget.no/Digital-forretningsforst%C3%A5else/I9788245033670"
-                      >Digital forretningsforståelse fra store data til små
-                      biter</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>September</td>
-                  <td>
-                    <a
-                
-                      href="https://www.norli.no/forsta-progrogrammering/"
-                      >Forstå programmering: med Java</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Oktober</td>
-                  <td>-</td>
-                </tr>
-                <tr>
-                  <td>November</td>
-                  <td>-</td>
-                </tr>
-              </table>
-              <img src="images/book.jpg" alt ="Book" style="width: 100%;">
-            </div>
-    
-        <script src="index.js"></script>
-      </body>
-    </html>
-  </html>
+    <h2 id="booksHeading">
+      <b>Her kan dere se hva har jeg lest i det siste</b> <br />
+      <br />
+      <i class="icon w3-margin fa-solid fa-book-open-reader"> </i>
+    </h2>
+    <div class="w3-container w3-margin">
+      <table class="w3-table-all w3-hoverable">
+        <thead>
+          <tr class="w3-grey">
+            <th>Dato</th>
+            <th>Navn</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>April</td>
+          <td>
+            <a
+              href="https://www.akademika.no/9781118008188/teknologi/data-og-informasjonsteknologi/html-and-css"
+              >HTML & CSS : design and build web sites = HTML and CSS</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mai</td>
+          <td>
+            <a
+              href="https://www.akademika.no/9781118531648/teknologi/data-og-informasjonsteknologi/javascript-and-jquery-interactive-front-end-web-development"
+            >
+              JavaScript & jQuery : interactive front-end web development</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mai/Juni</td>
+          <td>
+            <a
+              href="https://www.akademika.no/9780672336232/teknologi/data-og-informasjonsteknologi/html-css-javascript-web-publishing-one-hour-day-sams-teach-yourself"
+              >Sams teach yourself HTML, CSS & JavaScript web publishing in one
+              hour a day</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Juni</td>
+          <td>
+            <a
+              href="https://www.ark.no/boker/Barbro-Tronhuus-Storlien-Barbro-broderer-9788269074468"
+              >Barbro broderer - tanker, tips og teknikker</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Juni/Juli</td>
+          <td>
+            <a
+              href="https://www.fagbokforlaget.no/Digital-forretningsforst%C3%A5else/I9788245033670"
+              >Digital forretningsforståelse fra store data til små biter</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>September</td>
+          <td>
+            <a href="https://www.norli.no/forsta-progrogrammering/"
+              >Forstå programmering: med Java</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Oktober</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>November</td>
+          <td>-</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
