@@ -184,7 +184,8 @@ p {
 }
 /* BOOKS */
 #books {
-  background-color: #cfdac8;
+  background-image: url('../images/book.jpg');
+  background-size: cover;
 }
 #booksHeading {
   margin: 5% 27%;
