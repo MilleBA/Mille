@@ -125,9 +125,9 @@ p {
 }
 
 #features {
-  margin: 7% 7%;
   padding: 1em;
   text-align: center;
+  line-height: normal;
 }
 
 .icon {
