@@ -30,8 +30,8 @@ function showDivs(n) {
   dots[slideIndex - 1].className += ' w3-red';
 }
 
-function myFunction() {
-  var x = document.getElementById('demo');
+function myFunction(id) {
+  var x = document.getElementById(id);
   if (x.className.indexOf('w3-show') == -1) {
     x.className += ' w3-show';
   } else {
