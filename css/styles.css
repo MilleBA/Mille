@@ -1,14 +1,15 @@
- {
+/*
+{
   box-sizing: border-box;
 }
 
-/* Container for flexboxes */
+// Container for flexboxes //
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create three equal columns */
+// Create three equal columns //
 .column {
   flex: 33%;
   padding: 20px;
@@ -18,7 +19,7 @@
     font-size: 20px;
   }
 }
-/* On screens that are 992px wide or less, go from four columns to two columns */
+// On screens that are 992px wide or less, go from four columns to two columns //
 @media screen and (max-width: 992px) {
   .column {
     flex: 50%;
@@ -28,7 +29,7 @@
   }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+// On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other //
 @media screen and (max-width: 600px) {
   .row {
     flex-direction: column;
@@ -36,12 +37,7 @@
   }
 }
 
-/******************************************************************************/
-
-h3 {
-  font-family: 'Montserrat' weight 700;
-}
-
+*/
 h5 {
   color: #251d3a;
   line-height: 2;
@@ -55,17 +51,11 @@ li {
   text-align: left;
 }
 
-/* må spesifisere koden med id="" + class="" i html
-for css blir spesifisert #id.class {} */
 a {
   text-decoration: none;
   color: black;
 }
 
-.kontakter {
-  color: black;
-  margin: 20px 100px;
-}
 p {
   text-align: left;
 }
@@ -74,6 +64,7 @@ footer {
   margin-top: 20px;
   padding: 10px;
 }
+
 /* Linker */
 
 .linker {
@@ -113,6 +104,7 @@ footer {
 }
 
 /* Kurs */
+
 .kurs {
   background-image: url('../images/background3.jpg');
   background-size: cover;
@@ -126,12 +118,6 @@ footer {
   margin: 10px 60px;
 }
 
-#features {
-  padding: 1em;
-  text-align: center;
-  line-height: normal;
-}
-
 .icon {
   color: black;
 }
@@ -139,41 +125,17 @@ footer {
 .icon:hover {
   color: orange;
 }
-
-.icon2 {
-  color: red;
-}
-
 .icon2:hover {
-  color: purple;
-}
-
-.abcd {
-  padding: 50px 50px;
+  color: white;
 }
 
 /* Kontakter */
 
-.kontakter-boks {
-  margin: 150px 200px 50px 200px;
-}
 .kontakter-side {
   background-image: url('../images/background5.jpg');
   background-size: cover;
 }
 
-/* Navbar */
-.button {
-  margin-left: 10px;
-}
-.navbar {
-  margin: 50px 100px 50px;
-}
-
-.btn-group {
-  margin-top: 40px;
-  margin-right: 40px;
-}
 /* CV */
 
 .cv {
@@ -184,8 +146,9 @@ footer {
   margin: 40px 100px 20px;
 }
 .cv-andreopplysninger {
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
+
 /* BOOKS */
 #books {
   background-image: url('../images/book.jpg');
