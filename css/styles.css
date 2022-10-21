@@ -34,6 +34,15 @@
 }
 
 */
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   /* Gjemme for mindre skjermer enn desktop: */
@@ -42,12 +51,20 @@
   }
 }
 
-@media only screen and (min-width: 1500px) {
-  footer {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+@media only screen and (min-width: 768px) {
+  form {
+    width: 50%;
+  }
+  .bilde {
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  b {
+    font-size: 1.5rem;
+  }
+  i {
+    font-size: 1.5rem;
   }
 }
 
@@ -86,6 +103,20 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .mySlides {
