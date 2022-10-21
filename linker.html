@@ -20,49 +20,61 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
   </head>
 
-  <body class="linker">
-    <nav class="w3-bar w3-padding w3-black w3-round">
-      <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
-        ><i class="fa fa-home"></i
+  <body class="meg">
+    <header class="w3-row-padding w3-mobile">
+      <div class="w3-container w3-threequarter">
+        <h1><b> Mille Brekke Amundsen: </b></h1>
+        <br />
+        <h3 class="w3-center">
+          IT og informasjonssystemer student <i class="fa-solid fa-heart"></i>
+        </h3>
+      </div>
+      <div class="w3-container w3-quarter w3-mobile w3-padding">
+        <div>
+          <img src="images/data.png" alt="Tastatur" style="width: 100%" />
+        </div>
+      </div>
+    </header>
+    <nav class="w3-bar w3-dark-grey w3-padding w3-round">
+      <a
+        class="w3-bar-item w3-senter w3-small w3-text-orange w3-button"
+        href="index.html"
+        ><i class="fa fa-solid fa-home"></i
       ></a>
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="om_meg.html"
-        >Om meg</a
+        ><b>Om meg</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="mine_prosjekter.html"
-        >Mine prosjekter</a
+        ><b>Mine prosjekter</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="kurs.html"
-        >Kurs</a
+        ><b>Kurs</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-sand w3-small w3-hide-small"
         href="linker.html"
-        >Linker</a
+        ><b>Linker</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="books.html"
-        >Bøker</a
+        ><b>Bøker</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="kontakter.html"
-        ><i class="far fa-envelope-open"></i
-      ></a>
-      <input type="text" class="w3-bar-item w3-input" placeholder="Søk" />
-      <a href="#" class="w3-bar-item w3-button w3-orange"
-        ><i class="fa fa-search"></i
+        ><i class="far fa-solid fa-envelope-open"></i
       ></a>
       <a
         href="javascript:void(0)"
         class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-        onclick="myFunction()"
+        onclick="myFunction('demo')"
         >&#9776;</a
       >
     </nav>
@@ -75,20 +87,20 @@
         >Mine prosjekter</a
       >
       <a href="kurs.html" class="w3-bar-item w3-button">Kurs</a>
-      <a href="linker.html" class="w3-bar-item w3-button">Linker</a>
+      <a href="linker.html" class="w3-bar-item w3-button w3-sand">Linker</a>
       <a href="books.html" class="w3-bar-item w3-button">Bøker</a>
       <a href="kontakter.html" class="w3-bar-item w3-button"
         ><i class="far fa-envelope-open"></i
       ></a>
     </nav>
-    <div class="link">
-      <h1 class="link-tekst"><b>Nyttige linker for nybegynnere:</b></h1>
+    <div class="link-tekst">
+      <h3><b>Nyttige linker for nybegynnere:</b></h3>
     </div>
     <div class="link">
       <ul>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://www.askpython.com/python-programming"
           >
             AskPython</a
@@ -98,7 +110,7 @@
 
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://github.com/nwinkler/atom-keyboard-shortcuts"
             >Atom Keyboard Shortcuts</a
           >
@@ -106,7 +118,7 @@
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://docs.emmet.io/cheat-sheet/"
           >
             CheatSheet</a
@@ -115,7 +127,7 @@
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://codepen.io/pen/?editors=1000"
           >
             Codepen</a
@@ -123,20 +135,23 @@
           - visualisering av kode.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://colorhunt.co/">
+          <a class="text-warning bg-dark" href="https://colorhunt.co/">
             Colorhunt</a
           >
           - farge paletter.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://css3buttongenerator.com/">
+          <a
+            class="text-warning bg-dark"
+            href="https://css3buttongenerator.com/"
+          >
             Css3buttongenerator</a
           >
           - CSS3 knappe generator.
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://devdocs.io/html/element/meta"
           >
             Devdocs</a
@@ -144,26 +159,29 @@
           - alt om forskjellige programmer.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://emojipedia.org/broccoli/">
+          <a
+            class="text-warning bg-dark"
+            href="https://emojipedia.org/broccoli/"
+          >
             Emojipedia</a
           >
           - masse forksjellige emoji koder.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://www.favicon.cc/">
+          <a class="text-warning bg-dark" href="https://www.favicon.cc/">
             Favicon</a
           >
           - for å lage egen icon.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://fonts.google.com/">
+          <a class="text-warning bg-dark" href="https://fonts.google.com/">
             Google Fonts</a
           >
           - en nettbasert database med mer enn 800 gratis skrifttyper.
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://crop-circle.imageonline.co/"
           >
             Crop-circle</a
@@ -172,7 +190,7 @@
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://developer.mozilla.org/en-US/docs/Web/CSS/display-listitem"
           >
             MDN Web docs</a
@@ -180,20 +198,20 @@
           - bibliotek for webutviklere.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://stackoverflow.com/">
+          <a class="text-warning bg-dark" href="https://stackoverflow.com/">
             Stackoverflow</a
           >
           - feilsøking.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://ascii.co.uk/art">
+          <a class="text-warning bg-dark" href="https://ascii.co.uk/art">
             ASCII Art</a
           >
           - Python kunst.
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://unicode-table.com/en/alt-codes/"
           >
             Unicode table</a
@@ -202,7 +220,7 @@
         </li>
         <li>
           <a
-            class="text-info bg-dark"
+            class="text-warning bg-dark"
             href="https://www.w3schools.com/tags/tag_meta.asp"
           >
             W3schools</a
@@ -210,65 +228,70 @@
           - kurs om forskjellige programmer.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://ascii.co.uk/art">
+          <a class="text-warning bg-dark" href="https://ascii.co.uk/art">
             ASCII Art</a
           >
           - Python kunst.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://reeborg.ca/index_en.html">
+          <a
+            class="text-warning bg-dark"
+            href="https://reeborg.ca/index_en.html"
+          >
             Reeborg's world</a
           >
           - morsomt måte å lære litt programmering.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://fontawesome.com/">
+          <a class="text-warning bg-dark" href="https://fontawesome.com/">
             Font Awesome</a
           >
           - massevis av ikoner.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://www.codeply.com/">
+          <a class="text-warning bg-dark" href="https://www.codeply.com/">
             Codeplay</a
           >
           - kode visualisering.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://ui-patterns.com/">
+          <a class="text-warning bg-dark" href="https://ui-patterns.com/">
             User Interface Design patterns</a
           >
           - web design.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://balsamiq.cloud/">
+          <a class="text-warning bg-dark" href="https://balsamiq.cloud/">
             Balsamiq</a
           >
           - webutvikling.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://dribbble.com/#">
+          <a class="text-warning bg-dark" href="https://dribbble.com/#">
             Dribbble</a
           >
           - webutvikling inspirasjon.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://getbootstrap.com/">
+          <a class="text-warning bg-dark" href="https://getbootstrap.com/">
             Bootstrap</a
           >
           - Bootstrap bibliotek.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://bootsnipp.com/">
+          <a class="text-warning bg-dark" href="https://bootsnipp.com/">
             Bootsnipp</a
           >
           - element galleri for webutviklere.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://www.canva.com/"> Canva</a>
+          <a class="text-warning bg-dark" href="https://www.canva.com/">
+            Canva</a
+          >
           - et nettbasert design- og publiseringsverktøy.
         </li>
         <li>
-          <a class="text-info bg-dark" href="https://www.image-map.net/"
+          <a class="text-warning bg-dark" href="https://www.image-map.net/"
             >Image-map</a
           >
           - Image-map generator.
@@ -285,7 +308,7 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <footer class="w3-row w3-center w3-black w3-round w3-mobile">
+    <footer class="w3-bar w3-padding w3-light-grey w3-round">
       <p class="w3-center w3-small">
         &copy; 2022 Mille Brekke Amundsen
         <a class="w3-button" href="https://www.facebook.com/Deimiliuks"

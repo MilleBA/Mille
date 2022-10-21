@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,10 +10,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
-      rel="stylesheet"
-    />
     <link rel="icon" href="icon/favicon.ico" />
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script
@@ -22,7 +18,7 @@
     ></script>
   </head>
 
-  <body class="w3-light-grey">
+  <body class="meg">
     <header class="w3-row-padding w3-mobile">
       <div class="w3-container w3-threequarter">
         <h1><b> Mille Brekke Amundsen: </b></h1>
@@ -32,47 +28,51 @@
         </h3>
       </div>
       <div class="w3-container w3-quarter w3-mobile w3-padding">
-        <img src="images/background9.jpg" alt="Tastatur" style="width: 100%" />
+        <div>
+          <img src="images/data.png" alt="Tastatur" style="width: 100%" />
+        </div>
       </div>
     </header>
-    <nav class="w3-bar w3-black w3-round">
-      <a class="w3-bar-item w3-senter w3-small w3-button" href="index.html"
-        ><i class="fa fa-home"></i
+    <nav class="w3-bar w3-dark-grey w3-padding w3-round">
+      <a
+        class="w3-bar-item w3-senter w3-small w3-text-orange w3-sand w3-button"
+        href="index.html"
+        ><i class="fa fa-solid fa-home"></i
       ></a>
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="om_meg.html"
-        >Om meg</a
+        ><b>Om meg</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="mine_prosjekter.html"
-        >Mine prosjekter</a
+        ><b>Mine prosjekter</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="kurs.html"
-        >Kurs</a
+        ><b>Kurs</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="linker.html"
-        >Linker</a
+        ><b>Linker</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="books.html"
-        >Bøker</a
+        ><b>Bøker</b></a
       >
       <a
-        class="w3-bar-item w3-senter w3-button w3-small w3-hide-small"
+        class="w3-bar-item w3-senter w3-button w3-text-orange w3-small w3-hide-small"
         href="kontakter.html"
-        ><i class="far fa-envelope-open"></i
+        ><i class="far fa-solid fa-envelope-open"></i
       ></a>
       <a
         href="javascript:void(0)"
         class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-        onclick="myFunction()"
+        onclick="myFunction('demo')"
         >&#9776;</a
       >
     </nav>
@@ -92,8 +92,8 @@
       ></a>
     </nav>
 
-    <section class="w3-row w3-padding-32 w3-center">
-      <article class="w3-third w3-container w3-padding-32 w3-center">
+    <div class="link w3-row w3-padding-32 w3-center">
+      <article class="w3-third w3-col m6 l4 w3-container w3-padding w3-center">
         <i class="icon fa-solid fa-computer fa-2xl"></i>
 
         <h3 class="w3-text-black">Jenter kan kode!</h3>
@@ -109,49 +109,45 @@
       <div>
         <img
           src="images/woman_can_code.png"
-          class="w3-third w3-container w3-tiny w3-circle w3-padding-32 w3-center"
+          class="w3-third w3-col m6 l4 w3-container w3-tiny w3-hover-sepia w3-circle w3-padding w3-center"
           alt="Damer koder"
         />
       </div>
 
-      <article class="w3-third w3-padding-32 w3-center">
+      <article class="w3-third w3-col m6 l4 w3-padding w3-center">
         <i class="icon fa-regular fa-newspaper fa-2xl"></i>
         <h3>Lurt å lese:</h3>
         <p class="w3-text-black">
           <a href="#" class="w3-button w3-mobile"
-            ><i class="fas fa-laptop"></i> Her kan du finne artikler om kurs.</a
+            ><i class="fas fa-laptop"></i> Artikler om kurs.</a
           >
         </p>
         <p class="w3-text-black">
           <a href="#" class="w3-button w3-mobile"
-            ><i class="fas fa-laptop"></i> Her kan du finne artikler om
-            programmering.</a
+            ><i class="fas fa-laptop"></i> Artikler om programmering.</a
           >
         </p>
         <p class="w3-text-black">
           <a href="#" class="w3-button w3-mobile"
-            ><i class="fas fa-laptop"></i> Her kan du finne artikler om
-            webutvikling.</a
+            ><i class="fas fa-laptop"></i> Artikler om webutvikling.</a
           >
         </p>
         <p class="w3-text-black">
           <a href="#" class="w3-button w3-mobile"
-            ><i class="fas fa-laptop"></i> Her kan du finne artikler om
-            systemutvikling.</a
+            ><i class="fas fa-laptop"></i> Artikler om systemutvikling.</a
           >
         </p>
         <p class="w3-text-black">
           <a href="#" class="w3-button w3-mobile"
-            ><i class="fas fa-laptop"></i> Her kan du finne artikler om
-            informasjonssystemer.</a
+            ><i class="fas fa-laptop"></i> Artikler om informasjonssystemer.</a
           >
         </p>
       </article>
-    </section>
+    </div>
 
-    <footer class="w3-row w3-center w3-black w3-round w3-mobile">
+    <footer class="w3-bar w3-padding w3-light-grey w3-round">
       <p class="w3-center w3-small">
-        &copy 2022 Mille Brekke Amundsen
+        &copy; 2022 Mille Brekke Amundsen
         <a class="w3-button" href="https://www.facebook.com/Deimiliuks"
           ><i class="icon3 fa-brands fa-facebook"></i
         ></a>
