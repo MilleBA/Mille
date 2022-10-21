@@ -75,6 +75,7 @@ header {
 h1 {
   margin: 20px;
   padding: 20px;
+  font-weight: 900;
 }
 h5 {
   color: #251d3a;
