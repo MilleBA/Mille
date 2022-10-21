@@ -14,11 +14,7 @@
   flex: 33%;
   padding: 20px;
 }
-@media screen and (min-width: 600px) {
-  div {
-    font-size: 20px;
-  }
-}
+
 // On screens that are 992px wide or less, go from four columns to two columns //
 @media screen and (max-width: 992px) {
   .column {
@@ -38,6 +34,27 @@
 }
 
 */
+
+@media only screen and (max-width: 1024px) {
+  /* Gjemme for mindre skjermer enn desktop: */
+  div.slider {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+}
 h5 {
   color: #251d3a;
   line-height: 2;
@@ -60,62 +77,36 @@ p {
   text-align: left;
 }
 
-footer {
-  margin-top: 20px;
-  padding: 10px;
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
 }
 
+.mySlides {
+  display: none;
+}
 /* Linker */
 
-.linker {
-  background-image: url('../images/background2.jpg');
-}
 .link {
-  margin: 60px 50px;
+  margin: 50px;
   padding: 5px 5px;
 }
 
 .link-tekst {
+  margin: 40px;
+  padding: 5px;
   color: black;
 }
 
-/* Om meg */
+/* Background */
 
 .meg {
   background-image: url('../images/background4.jpg');
-  background-size: cover;
-}
-
-/* Mine prosjekter */
-
-#mine-prosjekter {
-  background-image: url('../images/background8.jpg');
-  background-size: cover;
-}
-
-.prosjekter-tekst {
-  color: black;
-  padding: 50px 0 10px 50px;
-}
-
-.prosjekter {
-  margin: 20px 100px;
-  padding-top: 20px;
-}
-
-/* Kurs */
-
-.kurs {
-  background-image: url('../images/background3.jpg');
-  background-size: cover;
-}
-.kurs-tekst {
-  color: black;
-  padding: 30px 30px;
-  margin: 30px 30px;
-}
-.kurs-boks {
-  margin: 10px 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
 }
 
 .icon {
@@ -129,36 +120,8 @@ footer {
   color: white;
 }
 
-/* Kontakter */
-
-.kontakter-side {
-  background-image: url('../images/background5.jpg');
-  background-size: cover;
-}
-
 /* CV */
-
-.cv {
-  background-color: #ffeeee;
-}
 
 .cv-heading {
   margin: 40px 100px 20px;
-}
-.cv-andreopplysninger {
-  margin-top: 50px;
-}
-
-/* BOOKS */
-#books {
-  background-image: url('../images/book.jpg');
-  background-size: cover;
-}
-#booksHeading {
-  margin: 5% 27%;
-  text-align: center;
-}
-
-#booksLinks {
-  text-decoration: none;
 }
