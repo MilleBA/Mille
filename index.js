@@ -61,27 +61,7 @@ function myFunction(id) {
 }
 
 // Koden for å validere form
-function validateFirstName() {
-  let fname = document.forms['myForm']['fName'].value;
-  if (fname == '') {
-    alert('Du må skrive fornavnet ditt!');
-    return false;
-  }
-}
-function validateLastName() {
-  let lname = document.forms['myForm']['lName'].value;
-  if (lname == '') {
-    alert('Du må skrive etternavnet ditt!');
-    return false;
-  }
-}
-function validateAge() {
-  let age = document.forms['myForm']['age'].value;
-  if (age < 0 || age > 100) {
-    alert('Feil alder!');
-    return false;
-  }
-}
+
 function validateAddress() {
   let address = document.forms['myForm']['address'].value;
   if (address == '') {
@@ -96,19 +76,8 @@ function validatePhone() {
     return false;
   }
 }
-function validateSms() {
-  let sms = document.forms['myForm']['message'].value;
-  if (sms == '') {
-    alert('Du må skrive melding!');
-    return false;
-  }
-}
 
 function validateForm() {
-  validateFirstName();
-  validateLastName();
-  validateAge();
   validateAddress();
   validatePhone();
-  validateSms();
 }
