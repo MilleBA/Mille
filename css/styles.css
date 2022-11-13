@@ -34,13 +34,33 @@
 }
 
 */
+ {
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
   form {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: auto;
+  }
+  nav#demo {
+    order: 1;
+  }
+  header {
+    order: 2;
+  }
+  .link {
+    order: 3;
+  }
+  footer {
+    order: 4;
   }
 }
 
@@ -122,12 +142,22 @@ textarea {
 
 .mySlides {
   display: none;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
 }
+
 /* Linker */
 
 .link {
   margin: 50px;
   padding: 5px 5px;
+}
+
+#linker {
+  padding: 5px 5px;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .link-tekst {
@@ -145,7 +175,6 @@ textarea {
   background-size: cover;
   background-position: right bottom;
 }
-
 
 .icon {
   color: black;
