@@ -52,11 +52,11 @@ function carousel() {
 
 // Koden for responsive meny (hide på mobile str og show på større skjerm)
 function myFunction(id) {
-  let meny = document.getElementById(id);
-  if (meny.className.indexOf('w3-show') == -1) {
-    meny.className += ' w3-show';
+  var x = document.getElementById(id);
+  if (x.className.indexOf('w3-show') == -1) {
+    x.className += ' w3-show';
   } else {
-    meny.className = x.className.replace(' w3-show', '');
+    x.className = x.className.replace(' w3-show', '');
   }
 }
 
